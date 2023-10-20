@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');F:root {
+--title-color: #000000;
+--body-color: #7c7e90;
+--light-color: #cccccc;
+--secondary-color: #f9f9f9;
+--smoke-color: #f8f8f8;
+--dark-color: #0b0c10;
+--light-gray-color: #171920;
+--light-dark-color: #0f1116;
+--mist-blue-color: #686d7c;
+--white-color: #ffffff;
+--black-color: #000000;
+--yellow-color: #fec624;
+--success-color: #28a745;
+--error-color: #dc3545;
+--orange-color: #f07707;
+--border-color: rgba(0, 0, 0, 0.1);
+--ripple-ani-duration: 3s;
+--bs-gutter-x: 15px;
+--bs-gradient: linear-gradient(to right, rgba(var(--theme-color2), 1) 0%, rgba(var(--theme-color), 1) 100%);
+}
+.modal-open {
+overflow: scroll;
+}
+.modal-body {
+background-color: #11042b;
+}
+* {
+margin: 0px;
+padding: 0px;
+}
+body{
+width: 100%;
+height: auto;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;
+font-size: 15px;
+}
+li.nav-item {
+padding: 5px;
+}
+li.nav-item:hover {
+
+background-color: #17a2b8;
+transition: 0.5s;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.text-white.border.p-0 {
+width: 100%;
+margin-left: 0%;
+
+border: 1px solid #565b5f!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #ffffff;
+padding: 19px 6px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+color: #ffffff;
+}
+.navbar-default{
+transition:500ms ease;
+background: #56d0ff;
+}
+.navbar-default.scrolled{
+background:#11042c;
+}
+/*navend*/
+
+
+
+ 
