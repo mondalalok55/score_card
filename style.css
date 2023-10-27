@@ -304,3 +304,30 @@ img.card-img-top_o.m-2 {
 .col-md-3.p-2 {
     height: 1%;
 }
+/*.container {
+  padding: 20px;
+}*/
+/*.row {
+   margin-bottom: 10px;
+  }*/
+ /* input {
+    width: 50%;
+    float: left;
+  }*/
+ /*  button {
+    width: 100%;
+  }*/
+ /* .col-sm {
+    font-size: 40px;
+    line-height: 70px;
+    height: 80px;
+
+background-color: #0f212f;
+  }*/
+  section.\31 1_section.mt-5 {
+    font-size: 40px;
+    line-height: 70px;
+    height: 80px;
+    background-color: #000000;
+        margin: 66px;   
+}
