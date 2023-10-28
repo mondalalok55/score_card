@@ -51,6 +51,7 @@
 /*__________*/
  button.btn.btn-primary.rounded-pill.mt-2.login {
      background-color: #ff7a1b;
+     margin-left: 1px;
 }
  h4.nav-link.text-white.ml-4 {
      margin-right: 47rem;
@@ -60,7 +61,7 @@
 }
  button.btn.btn-secondary.rounded-pill.mt-2 {
      background-color: #15c489;
-     margin-left: 24%;
+/*     margin-left: 24%;*/
 }
  .has-search .form-control-feedback {
      position: absolute;
@@ -102,46 +103,18 @@
  i.text-center {
      margin-left: 89%;
 }
- .divider.mb-4 {
-     background-color: #1a3258;
-}
+
  html {
      background-color: #1a3258;
 }
- .card-img-top12 {
-     height: 20px;
-}
-/*card*/
- .container.second{
-     margin-right: 2000px;
-}
- .row.Scoreard{
-     width: 150% 
-}
- .card-container.card11 {
+/*------------------*/
+ 
+ /*.card-container.card11 {
      display: flex;
      overflow: hidden;
 
 }
- .card-header {
-     background-color: #333;
-     color: #fff;
-     padding: 10px;
-}
- .card-content {
-     padding: 10px;
-     height: 200px;
-     overflow-y: scroll;
-}
- .scroll-arrow {
-     display: block;
-     position: absolute;
-     top: 0;
-     right: 0;
-     width: 20px;
-     height: 100%;
-     background: linear-gradient(to right, transparent, #fff);
-}
+
  .row.CardRow{
      width:167%;
 }
@@ -151,19 +124,42 @@
  .embed-responsive.embed-responsive-16by9{
      margin-top: -20px;
 }
- .column.left.image{
-     width: 38%;
-     height: 25%;
-}
- .column.right.image1{
-     width: 70%;
-     height: 100%;
-}
-/*CARD END 
-/* Default styles for larger screens */
+
  .btn.btn-primary{
      margin-left: 30%;
+}*/
+.card-container.card11 {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    overflow-x: auto; /* Add horizontal scrolling for small screens */
 }
+.row.CardRow{
+     width:167%;
+}
+.card.card12 {
+    flex: 0 0 auto; /* Prevent cards from growing or shrinking */
+    margin-right: 10px; /* Add some spacing between cards */
+    width: calc(20% - 10px); /* Set the width of each card to 20% minus spacing */
+}
+ .col-6.col-sm-3.country{
+     margin-left:-20px;
+}
+ .embed-responsive.embed-responsive-16by9{
+     margin-top: -20px;
+}
+/* Add media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .card-container.card11 {
+        overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+    }
+
+    .card.card12 {
+        width: calc(90% - 100px); /* Adjust the width for smaller screens (2 cards per row) */
+    }
+}
+
+
+/*--------------*/
  .row.class1 {
      margin-left: 80px;
      margin-right: 80px;
@@ -189,10 +185,10 @@
      right:7%;
 }
  .img2{
-     width: 10%;
+     width: 15%;
 }
  .img1{
-     width: 3%;
+     width: 6%;
 }
  .card.card13 {
      background-color: #F0F0F0;
@@ -330,4 +326,16 @@ background-color: #0f212f;
     height: 80px;
     background-color: #000000;
         margin: 66px;   
+}
+.foter1.text-center.text-white {
+    background-color: #1a3258;
+      margin-top: -5px;
+
+} 
+
+span.carousel-control-next-icon {
+    background-color: #ff7a1b;
+}
+span.carousel-control-prev-icon {
+    background-color: #ff7a1b;
 }
